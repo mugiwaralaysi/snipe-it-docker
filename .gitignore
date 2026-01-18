@@ -71,3 +71,23 @@ storage/ldap_client_tls.key
 /storage/framework/testing
 
 /.phpunit.cache
+
+# Laravel
+/vendor
+/node_modules
+/.env
+/storage/*.key
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/app/public/*
+/bootstrap/cache/*.php
+
+# Docker
+/db_data
+/storage
+
+# OS files
+.DS_Store
+Thumbs.db
